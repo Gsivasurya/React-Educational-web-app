@@ -1,0 +1,65 @@
+.card .acrd1 .card-img1{
+    width: 50px;
+    height: 50px;
+}
+.card-img1{
+    width: 100px;
+    height: 100px;
+}
+.sub-img1{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    
+}
+.subimg-text{
+    font-weight: bold;
+    color: gray;
+    font-size: 14px;
+    
+}
+.course-card1{
+    margin-top: 20px;
+    
+    height: 200px;
+ 
+}
+
+.course-card1-img{
+    height: 100px;
+    width: 100px;
+    padding-bottom: 10px;
+    padding-top:10px ;
+    
+}
+
+.course-card-button:hover{
+    background: rgb(255, 255, 255);
+    padding:8px 15px 8px 15px;
+
+}
+.course-card1:hover{
+    background-color: aqua;
+    transition: 0.8s;
+}
+
+.card-container1 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.card-container1 .textp{
+    color: rgb(183, 174, 174);
+    font-size: 16px;
+    font-weight: 500;
+}
+.card-container1 .textpp{
+    font-size: 16px;
+}
+.card-container1:hover{
+    color: white;
+    background: rgb(28, 136, 171);
+    transition: 1s;
+}

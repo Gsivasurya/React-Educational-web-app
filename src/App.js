@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import About from './components/about/About'
+import Blog from './components/allcourses/blog/Blog'
+import CourseHome from './components/allcourses/CourseHome'
 
-function App() {
+import Header from './components/common/heading/Header'
+import Pricing from './components/pricing/Pricing'
+import Footer from './components/pricing/Footer'
+import Exa from './components/about/Exa'
+
+
+// import {BrowserRouter as Router,Switch} from "react-router-dom";
+
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className="homesection">
+      
+      <Header />
+      </div>
+      <About />
+      <CourseHome />
+      <Blog />
+      
+      <Pricing />
+      <Footer />
+      <Exa/>
+      
+      
+     
+      
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
+
+

@@ -1,0 +1,115 @@
+.head{
+    padding: 20px;
+    color: rgb(62, 59, 59);
+   
+}
+.logo h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+.head .icon{
+    
+    font-size: 25px;
+    color: aliceblue;
+    transition: 0.7s;
+    padding: 10px;
+    
+    
+    
+    
+}
+.head .icon:hover{
+    cursor: pointer;
+    color: rgb(12, 210, 228);
+    
+   
+}
+.flixSB{
+    width: 85%;
+    margin: auto;
+    
+}
+.nvlink:hover{
+    color: rgb(226, 120, 21);
+    font-weight:700;
+    transition: 0.7s;
+}
+.startbt{
+    background-color: rgb(70, 199, 235);
+    color: rgb(253, 252, 252);
+   
+   align-items: center;
+}
+
+
+
+
+
+/* .hero{
+    background-image: url("https://images.pexels.com/photos/35537/child-children-girl-happy.jpg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;  
+    background-attachment: fixed;  
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    
+    z-index:-1;
+    
+    position: absolute;
+    /* padding-top: 20%; */
+ */
+
+.sec{
+    position: relative;
+    
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+}
+.heading{
+    text-align: center;
+   padding: 30px 0;
+}
+.heading h4{
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgb(40, 219, 243);
+}
+.heading h1{
+    font-weight: 45px;
+    color: orange;
+    /* margin: 20px 0; */
+    text-transform: capitalize;
+}
+p{
+    line-height: 20px;
+    font-size: 18px;
+    color:rgb(106, 54, 54);
+}
+.hero .heading{
+    text-align: left;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+  }
+  #homesection {
+    background-color: url("https://c0.wallpaperflare.com/preview/534/41/125/school-books-young-adult-education.jpg");
+      background-size: cover;  
+      background-attachment: fixed;  
+      height: 100vh;
+      width: 100%;
+      top: 0;
+      left: 0;
+      
+      z-index:-1;
+      position: relative;
+      
+     
+  }
